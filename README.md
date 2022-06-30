@@ -1,4 +1,4 @@
-[a relative link](felipestay.github.io/publications)
+[Publications](felipestay.github.io/publications)
 
 ## About me
 Soy estudiante de segundo año del doctorado en sociología de la Universidad Católica de Chile. Tengo una maestría en políticas sociales en la London School of Economics and Political Sciences y en sociología de la Universidad de Bristol. Estudios temas relaciones con justificación de sistema y percepciones de desigualdad, trayectorias de exclusión sin hogarismo y diseño de políticas sociales. 
