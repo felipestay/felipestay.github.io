@@ -16,4 +16,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Contacto
 
-[email](mailto:fiestay@uc.cl)
+[Contacto Email](mailto:fiestay@uc.cl)
