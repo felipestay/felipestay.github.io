@@ -1,5 +1,5 @@
 
-![plot](./Felipe-Estay.jpg)
+<img src="Felipe-Estay.jpg" width=100>
 
 
 [Publications](felipestay.github.io/publications)
