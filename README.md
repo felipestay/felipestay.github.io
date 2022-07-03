@@ -1,5 +1,5 @@
 
-Felipe-Estay.jpg
+![plot](./Felipe-Estay.jpg)
 
 
 [Publications](felipestay.github.io/publications)
