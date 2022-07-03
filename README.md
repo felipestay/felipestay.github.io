@@ -1,3 +1,7 @@
+
+Felipe-Estay.jpg
+
+
 [Publications](felipestay.github.io/publications)
 
 ## About me
