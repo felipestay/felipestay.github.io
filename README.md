@@ -1,5 +1,5 @@
 
-<img src="Felipe-Estay.jpg" width=100>
+<img src="Felipe-Estay.png" width=100>
 
 
 [Publications](felipestay.github.io/publications)
