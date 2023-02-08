@@ -6,14 +6,12 @@
       <h1>Felipe Estay</h1>
     </header>
 
-  <body>
 
 [Publications](felipestay.github.io/publications)
 
 ## About me
 
-<main>
-      <p>I am a sociologist pursuing a PhD in sociology at the Catholic University of Chile. I have a Master's degree in Social Policy from the London School of Economics and Political Science and Sociology from the University of Bristol. My research focuses on topics related to system justification and perceptions of inequality, exclusion pathways, homelessness, and the design of social policies.</p>
+I am a sociologist pursuing a PhD in sociology at the Catholic University of Chile. I have a Master's degree in Social Policy from the London School of Economics and Political Science and Sociology from the University of Bristol. My research focuses on topics related to system justification and perceptions of inequality, exclusion pathways, homelessness, and the design of social policies.
 
 
 ## Research
