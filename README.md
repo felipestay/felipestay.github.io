@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
   
 <img src="Felipe-Estay.png" width=100>
   
@@ -31,5 +30,3 @@ In my research, I employ quantitative methods to examine the interplay between s
 
 [Contacto Email](mailto:fiestay@uc.cl)
 
-  </body>
-</html>
