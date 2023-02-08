@@ -7,7 +7,7 @@
     </header>
 
 
-<a href="https://felipestay.github.io/publication.html">Publications</a>
+<a href="https://felipestay.github.io/publications.html">Publications</a>
 
 
 ## About me
