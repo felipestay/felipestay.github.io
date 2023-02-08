@@ -7,7 +7,7 @@
     </header>
 
 
-<a href="publication.html">Publications</a>
+<a href="publications.html">Publications</a>
 
 ## About me
 
