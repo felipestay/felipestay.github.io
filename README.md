@@ -1,3 +1,9 @@
+p>
+</main>
+<footer>
+<p>© [Your Name] [Current Year]</p>
+</footer>
+
 
 <img src="Felipe-Estay.png" width=100>
 
@@ -21,3 +27,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Contacto
 
 [Contacto Email](mailto:fiestay@uc.cl)
+  </body>
+</html>
+```
