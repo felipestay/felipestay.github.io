@@ -43,7 +43,7 @@
 <body>
     <header>
         <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
-        <h1>Felipe Estay</h1>
+        <h1> </h1>
     </header>
 
     <nav>
