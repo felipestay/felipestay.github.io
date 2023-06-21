@@ -37,7 +37,7 @@
 
     <nav>
         <a href="publications.html">Publications</a>
-        <a href="curriculum.html">Curriculum</a>
+        <a href="curriculum.html">Professional Activities</a>
     </nav>
 
     <section>
