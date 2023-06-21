@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Felipe Estay Barrera</title>
+  <title></title>
 </head>
 <body>
   <img src="Felipe-Estay.png" width="100">
