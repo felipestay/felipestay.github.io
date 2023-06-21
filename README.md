@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -8,7 +7,7 @@
             font-family: Arial, sans-serif;
         }
         header {
-            background-image: url('chicago1.jpg'), url('Felipe-Estay.png');
+            background-image: url('chicago1.jpg');
             background-size: cover;
             background-position: center;
             background-color: rgba(255, 255, 255, 0.9);
