@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Felipe Estay</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <img src="Felipe-Estay.png" width="100">
@@ -33,3 +34,9 @@
     <h2>Methods</h2>
     <p>
       In my research, I employ quantitative methods to examine the interplay between system justification,
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
