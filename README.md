@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Felipe Estay</title>
+  <title>Academic website</title>
 </head>
 <body>
   <img src="Felipe-Estay.png" width="100" alt="Felipe Estay">
