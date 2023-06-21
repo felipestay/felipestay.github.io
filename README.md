@@ -2,15 +2,14 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Felipe Estay</title>
 </head>
 <body>
   <img src="Felipe-Estay.png" width="100">
   
   <header>
-   <h1>Felipe Estay</h1>
+    <h1>Felipe Estay</h1>
   </header>
-
 
   <nav>
     <a href="publications.html">Publications</a> -- <a href="curriculum.html">Curriculum</a>
@@ -33,15 +32,4 @@
   <section>
     <h2>Methods</h2>
     <p>
-      In my research, I employ quantitative methods to examine the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Specifically, in my studies on inequality, I use experimental design to analyze the relationship between status quo and inequality justification. For my research on homelessness, I use administrative and longitudinal data to uncover the processes of cumulative disadvantage and social exclusion. Ultimately, my goal is to gain a deeper understanding of the complex dynamics at play in these critical social issues.
-    </p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>
-      <a href="mailto:fiestay@uc.cl">Contact Email</a>
-    </p>
-  </section>
-</body>
-</html>
+      In my research, I employ quantitative methods to examine the interplay between system justification,
