@@ -31,7 +31,7 @@
 </head>
 <body>
     <header>
-        <img src="Felipe-Estay.png" width="100" alt="Sociólogo">
+        <img src="Felipe-Estay.png" width="100" alt="Sociologist">
         <h1>Felipe Estay</h1>
     </header>
 
