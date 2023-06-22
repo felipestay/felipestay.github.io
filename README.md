@@ -47,8 +47,8 @@
     </header>
 
     <nav>
-        <a href="publications.html">Publications</a>
-        <a href="curriculum.html">Professional Activities</a>
+        <a href="publications.md">Publications</a>
+        <a href="curriculum.md">Professional Activities</a>
     </nav>
 
     <section>
