@@ -11,7 +11,7 @@
             background-size: cover;
             background-position: right;
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
+            padding: 10px;
             text-align: center;
             display: flex;
             align-items: center;
