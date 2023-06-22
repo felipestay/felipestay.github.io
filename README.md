@@ -9,7 +9,7 @@
         header {
             background-image: url('chicago1.jpg');
             background-size: cover;
-            background-position: right;
+            background-position: bottom;
             background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             text-align: center;
@@ -20,7 +20,7 @@
             border-radius: 50%;
             width: 100px;
             margin-top: 30px;
-            margin-right: 20px;
+            margin-right: 30px;
         }
         h1 {
             margin: 0;
