@@ -9,7 +9,7 @@
         header {
             background-image: url('chicago2.jpg');
             background-size: cover;
-            background-position: above;
+            background-position: center;
             background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             text-align: center;
