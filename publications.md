@@ -10,7 +10,7 @@
         
         .container {
             margin: 20px auto; /* Add margins to center the content and create spacing */
-            max-width: 800px; /* Set a maximum width for better readability on larger screens */
+            max-width: 600px; /* Set a maximum width for better readability on larger screens */
         }
         
         header {
@@ -73,7 +73,7 @@
 
         <nav>
             <a href="https://felipestay.github.io/">Home</a>
-            <a href="curriculum.html">Professional Activities</a>
+            <a href="curriculum.md">Professional Activities</a>
         </nav>
 
         <section>
