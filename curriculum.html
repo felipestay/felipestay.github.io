@@ -1,89 +1,80 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Your Website</title>
+    <meta charset="UTF-8">
+    <title>Academic website</title>
     <style>
-        .experience-section {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: left;
-            margin-top: 40px;
-            margin-bottom: 50px;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Add margin to the body to create space */
         }
-
-        .job {
-            margin-bottom: 40px;
+        
+        .container {
+            margin: 20px auto; /* Add margins to center the content and create spacing */
+            max-width: 800px; /* Set a maximum width for better readability on larger screens */
         }
-
-        .job h3 {
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .job-details {
-            color: #666;
-            margin-bottom: 5px;
-        }
-
-        .job-description {
-            margin-bottom: 10px;
-            font-style: italic;
-        }
-
-        .additional-info {
-            margin-top: 40px;
-        }
-
-        .additional-info p {
-            text-align: left;
-        }
-
-        .curriculum-button {
+        
+        header {
+            background-image: url('taller1.png');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
             text-align: center;
-            margin-top: 40px;
+            display: flex;
+            align-items: flex-start;
         }
-
-        .curriculum-button a {
-            display: inline-block;
-            font-size: 14px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #337ab7;
-            padding: 10px 20px;
-            border-radius: 4px;
+        
+        img.profile-photo {
+            border-radius: 50%;
+            width: 100px;
+            margin-top: 20px;
+            margin-right: 20px;
         }
-
-        .header {
-            position: relative;
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #e9ecef;
+            padding: 15px;
             text-align: center;
-            margin-bottom: 40px;
         }
-
-        .header-img {
-            width: 100%;
-            height: auto;
-            display: block;
+        
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
         }
-
-        .header-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #fff;
-            font-size: 24px;
-            font-weight: bold;
+        
+        section {
+            margin: 20px 0; /* Add vertical margin to create spacing between sections */
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column; /* Stack the header items vertically on small screens */
+                align-items: center;
+            }
+            
+            img.profile-photo {
+                margin-right: 0; /* Remove right margin on small screens for better alignment */
+            }
         }
     </style>
 </head>
 <body>
-    <section class="experience-section">
-        <div class="header">
-            <img src="taller1.png" alt="Your Name" class="header-img">
-            <h2 class="header-text">Professional Experience</h2>
-        </div>
+    <div class="container"> <!-- Add a container element to wrap the content -->
+        <header>
+            <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
+            <h1> </h1>
+        </header>
 
+        <nav>
+            <a href="https://felipestay.github.io/">Home</a>
+            <a href="publications.html">Professional Activities</a>
+        </nav>
         <div class="job">
             <h3>Executive Director</h3>
             <h4>Moviliza</h4>
@@ -121,12 +112,7 @@
                 <a href="CVFelipeEstayE(arc).pdf" target="_blank">Download Curriculum</a>
             </div>
       <section>
-            <h2>Contact</h2>
-            <p>
-                <a href="mailto:fiestay@uc.cl">Contact Email</a>
-            </p>
-        </section>
-
+        
         <footer>
             <p style="text-align:center;">&copy; 2023 Felipe Estay</p>
         </footer>
