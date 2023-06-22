@@ -14,12 +14,11 @@
             padding: 20px;
             text-align: center;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
         }
         img.profile-photo {
             border-radius: 50%;
             width: 100px;
-            margin-top: -50px;
             margin-right: 20px;
         }
         h1 {
