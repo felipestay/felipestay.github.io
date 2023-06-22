@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Your Website</title>
@@ -51,18 +50,30 @@
             border-radius: 4px;
         }
 
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Add some spacing between the header and the job section */
+        }
+
         .profile-photo {
-            width: 150px; /* Adjust the width as per your preference */
+            flex-shrink: 0;
+            width: 100px; /* Adjust the width as per your preference */
             height: auto;
-            display: block;
-            margin: 0 auto 10px; /* Center the image and add spacing */
+            margin-right: 10px; /* Add some spacing between the photo and text */
+        }
+
+        .header h2 {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <section class="experience-section">
-        <img src="taller1.png" alt="Your Name" class="profile-photo">
-        <h2>Professional Experience</h2>
+        <div class="header">
+            <img src="path_to_your_photo.jpg" alt="Your Name" class="profile-photo">
+            <h2>Professional Experience</h2>
+        </div>
 
         <div class="job">
             <h3>Executive Director</h3>
