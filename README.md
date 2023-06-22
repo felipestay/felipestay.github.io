@@ -11,10 +11,10 @@
             background-size: cover;
             background-position: right;
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 10px;
+            padding: 30px;
             text-align: center;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
         }
         img.profile-photo {
             border-radius: 50%;
