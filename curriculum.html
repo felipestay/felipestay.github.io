@@ -1,10 +1,12 @@
 <section class="experience-section">
-    <div class="photo">
-        <img src="taller1.png" alt="Profile Photo">
+    <div class="left-column">
+        <div class="photo">
+            <img src="your-photo.jpg" alt="Profile Photo">
+        </div>
     </div>
-    <div class="job">
+    <div class="right-column">
         <h2>Professional Experience</h2>
-        <div class="job-item">
+        <div class="job">
             <h3>Executive Director</h3>
             <h4>Moviliza</h4>
             <p class="job-details">October 2019 - Present</p>
@@ -13,7 +15,7 @@
             </p>
         </div>
 
-        <div class="job-item">
+        <div class="job">
             <h3>Consultant</h3>
             <h4>Independent Consultancy</h4>
             <p class="job-details">November 2015 - October 2018</p>
@@ -22,7 +24,7 @@
             </p>
         </div>
 
-        <div class="job-item">
+        <div class="job">
             <h3>Consultant</h3>
             <h4>Ministry of Social Development (MDS)</h4>
             <p class="job-details">February - November 2015</p>
@@ -47,40 +49,39 @@
 
 <style>
     .experience-section {
-        max-width: 600px;
+        max-width: 800px;
         margin: 0 auto;
-        text-align: left;
         display: flex;
     }
 
-    .photo {
-        margin-right: 20px;
+    .left-column {
+        flex-basis: 50%;
+        padding-right: 20px;
     }
 
     .photo img {
-        width: 150px;
+        width: 100%;
         border-radius: 50%;
     }
 
-    .job {
-        flex-grow: 1;
-        margin-bottom: 20px;
+    .right-column {
+        flex-basis: 50%;
     }
 
-    .job h2 {
+    .right-column h2 {
         margin-top: 0;
     }
 
-    .job-item {
+    .job {
         margin-bottom: 20px;
     }
 
-    .job-item h3 {
+    .job h3 {
         font-size: 18px;
         font-weight: bold;
     }
 
-    .job-item h4 {
+    .job h4 {
         font-size: 16px;
         font-weight: normal;
     }
