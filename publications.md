@@ -5,14 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Add margin to the body to create space */
         }
-        
-        .container {
-            margin: 20px auto; /* Add margins to center the content and create spacing */
-            max-width: 800px; /* Set a maximum width for better readability on larger screens */
-        }
-        
         header {
             background-image: url('fila1.png');
             background-size: cover;
@@ -23,58 +16,40 @@
             display: flex;
             align-items: flex-start;
         }
-        
         img.profile-photo {
             border-radius: 50%;
             width: 100px;
             margin-top: 20px;
             margin-right: 20px;
         }
-        
         h1 {
             margin: 0;
         }
-        
         nav {
             background-color: #e9ecef;
             padding: 15px;
             text-align: center;
         }
-        
         nav a {
             margin: 0 10px;
             text-decoration: none;
             color: black;
         }
-        
         section {
-            margin: 20px 0; /* Add vertical margin to create spacing between sections */
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            header {
-                flex-direction: column; /* Stack the header items vertically on small screens */
-                align-items: center;
-            }
-            
-            img.profile-photo {
-                margin-right: 0; /* Remove right margin on small screens for better alignment */
-            }
+            margin: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container"> <!-- Add a container element to wrap the content -->
-        <header>
-            <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
-            <h1> </h1>
-        </header>
+    <header>
+        <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
+        <h1> </h1>
+    </header>
 
-        <nav>
-            <a href="https://felipestay.github.io/">Home</a>
-            <a href="curriculum.md">Professional Activities</a>
-        </nav>
+    <nav>
+        <a href="publications.md">Publications</a>
+        <a href="curriculum.md">Professional Activities</a>
+    </nav>
 
         <section>
             <h2>Journals</h2>
