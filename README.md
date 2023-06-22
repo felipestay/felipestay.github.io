@@ -7,7 +7,7 @@
             font-family: Arial, sans-serif;
         }
         header {
-            background-image: url('chicago1.jpg');
+            background-image: url('background-photo.jpg');
             background-size: cover;
             background-position: right;
             background-color: rgba(255, 255, 255, 0.9);
@@ -19,7 +19,7 @@
         img.profile-photo {
             border-radius: 50%;
             width: 100px;
-            margin-top: -50px;
+            margin-top: 30px;
             margin-right: 20px;
         }
         h1 {
