@@ -1,76 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Publications</title>
+    <title>Academic website</title>
     <style>
-        .publications-section {
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: left;
+        body {
+            font-family: Arial, sans-serif;
         }
-
-        .publication {
-            margin-bottom: 20px;
+        header {
+            background-image: url('fila1.png');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: flex-start;
         }
-
-        .publication h3 {
-            font-size: 18px;
-            font-style: bold;
-        }
-
-        .publication h4 {
-            font-size: 18px;
-            font-style: bold;
-        }
-
-        .publication p {
-            font-size: 16px;
-            font-style: italic;
-        }
-        
-        .header {
-          background-image: url('fila1.png');
-  background-size: auto;
-  background-position: bottom;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  height: 200px;
-        } 
-        
-       .header-img {
-          order-radius: 50%;
+        img.profile-photo {
+            border-radius: 50%;
             width: 100px;
-            margin-top: 50px;
-            margin-right: 50px;
+            margin-top: 20px;
+            margin-right: 20px;
         }
-        .header-text {
-         position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #e9ecef;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        section {
+            margin: 20px;
         }
     </style>
 </head>
 <body>
-    <section class="publications-section">
-        <div class="header">
-            <h2 class="header-text">Publications</h2>
-        </div>
-            <h3>Personas en situación de calle: desafío pendiente para la política social en Chile</h3>
+    <header>
+        <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
+        <h1> </h1>
+    </header>
+
+    <section>
+        <h2>Journals</h2>
+         <h3>Personas en situación de calle: desafío pendiente para la política social en Chile</h3>
             <p>
                 This article discusses the challenges of addressing the issue of homelessness in Chile. The article was published in the journal <a href="https://repositorio.uahurtado.cl/handle/11242/3628">Persona y Sociedad/UAH</a>.
             </p>
-        </div>
+    </section>
 
-        <div class="publication">
+    <section>
+        <h2>Books</h2>
             <h3>Estudio Levantamiento de Experiencias Internacionales de Reconversión Residencial de Protección Especializada</h3>
             <p>
                 This study reviewed international experiences in the conversion of residential protection facilities. The study was conducted by the <a href="https://www.mides.gob.cl/">Ministry of Social Development</a> and the <a href="https://www.iadb.org/">Inter-American Development Bank</a>.
@@ -78,27 +64,20 @@
             <p>
                 The report is available for free download from the <a href="https://www.bcn.cl/obtienearchivo?id=documentos/10221.1/69628/1/Estudio-Levantamiento-de-Experiencias-Internacionales-de-Reconversio%CC%81n-Residencial-de-Proteccio%CC%81n-Especializada.pdf">Biblioteca del Congreso Nacional</a> website.
             </p>
-        </div>
+    </section>
 
-        <div class="publication">
-            <h3>Reflexiones sobre el Programa Abriendo Caminos: Notas para la política social</h3>
-            <p>
-                This book of essays reflects on the Abriendo Caminos program, a Chilean government program that provides support to children of incarcerated parents. The essays were written by a variety of authors, including academics, policymakers, and practitioners.
-            </p>
-            <p>
-                The book is available for free download from the <a href="https://pazciudadana.cl/biblioteca/documentos/reflexiones-sobre-el-programa-abriendo-caminos-notas-para-la-politica-social/">Paz Ciudadana</a> website.
-            </p>
-        </div>
-
-        <div class="publication">
-            <h3>Apoyo para el Fortalecimiento de Competencias Sociales para niños de 0 a 7 años. Manual de Apoyo para el Trabajo</h3>
+    <section>
+        <h2>Reports</h2>
+   <h3>Apoyo para el Fortalecimiento de Competencias Sociales para niños de 0 a 7 años. Manual de Apoyo para el Trabajo</h3>
             <p>
                 This manual provides guidance on how to strengthen social skills in children from 0 to 7 years old. The manual was developed by the <a href="https://www.mides.gob.cl/">Ministry of Social Development</a> and the <a href="https://www.uchile.cl/">University of Chile</a>.
             </p>
             <p>
                 The manual is available for free download from the <a href="https://www.desarrollosocialyfamilia.gob.cl/btca/txtcompleto/mideplan/manual_formac.compet.parentales.pdf">MIDES website</a>.
             </p>
-        </div>
     </section>
+
+  
+   
 </body>
 </html>
