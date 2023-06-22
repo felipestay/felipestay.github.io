@@ -9,7 +9,7 @@
         header {
             background-image: url('chicago1.jpg');
             background-size: cover;
-            background-position: bottom;
+            background-position: above;
             background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             text-align: center;
@@ -19,8 +19,8 @@
         img.profile-photo {
             border-radius: 50%;
             width: 100px;
-            margin-top: 30px;
-            margin-right: 30px;
+            margin-top: 20px;
+            margin-right: 20px;
         }
         h1 {
             margin: 0;
