@@ -7,7 +7,7 @@
             font-family: Arial, sans-serif;
         }
         header {
-            background-image: url('chicago1.jpg');
+            background-image: url('chicago2.jpg');
             background-size: cover;
             background-position: above;
             background-color: rgba(255, 255, 255, 0.9);
