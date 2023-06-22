@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -12,7 +11,7 @@
             background-size: cover;
             background-position: right;
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
+            padding: 30px;
             text-align: center;
             display: flex;
             align-items: center;
@@ -43,7 +42,7 @@
 <body>
     <header>
         <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
-        <h1> </h1>
+        <h1> Felipe Estay </h1>
     </header>
 
     <nav>
