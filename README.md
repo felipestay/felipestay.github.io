@@ -7,15 +7,15 @@
             font-family: Arial, sans-serif;
         }
         header {
-            background-image: url('chicago1.jpg');
+            background-image: url('background-photo.jpg');
             background-size: cover;
             background-position: right;
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
+            padding: 20px;
             text-align: center;
             display: flex;
             align-items: flex-start;
-         }
+        }
         img.profile-photo {
             border-radius: 50%;
             width: 100px;
