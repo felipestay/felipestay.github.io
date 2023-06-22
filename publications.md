@@ -77,16 +77,15 @@
             </p>                                                                                                                                                                                                                           
         </section>
 
-        <section>
-            <h2>Contact</h2>
-            <p>
-                <a href="mailto:fiestay@uc.cl">Contact Email</a>
-            </p>
-        </section>
+     <section>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:fiestay@uc.cl">Contact Email</a>
+        </p>
+    </section>
 
-        <footer>
-            <p style="text-align:center;">&copy; 2023 Felipe Estay</p>
-        </footer>
-    </div> <!-- Close the container element -->
+    <footer>
+        <p style="text-align:center;">&copy; 2023 Felipe Estay</p>
+    </footer>
 </body>
 </html>
