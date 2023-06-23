@@ -68,8 +68,7 @@
     <section>
         <h2>Methods</h2>
         <p>
-            In my research, I employ quantitative methods to examine the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Specifically, in my studies on inequality, I use experimental design to analyze the relationship between status quo and inequality justification. For my research on homelessness, I use administrative and longitudinal data to uncover the processes of cumulative disadvantage and social exclusion. Ultimately, my goal is to gain a deeper understanding of the complex dynamics at play in these critical social issues.
-        </p>
+In my research, I utilize quantitative methodologies to explore the intricate relationship between system justification, perceived inequality, and experiences of exclusion and homelessness. More specifically, my studies on inequality leverage experimental designs to scrutinize the correlation between the status quo and justifications for inequality. In the realm of homelessness, I use administrative and longitudinal datasets to delve into the underlying mechanisms of cumulative disadvantage and social exclusion. In essence, my ultimate ambition is to unravel the complex dynamics that govern these pressing social issues, paving the way for more profound understanding and action.        </p>
     </section>
 
     <section>
