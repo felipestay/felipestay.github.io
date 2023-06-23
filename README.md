@@ -1,61 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Academic website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    header {
-      background-image: url('chicago2.jpg');
-      background-size: cover;
-      height: 100vh;
-      position: relative;
-    }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-    .content {
-      padding: 20px;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    p {
-      margin-bottom: 10px;
-    }
-    ul {
-      margin-bottom: 10px;
-    }
-    li {
-      margin-bottom: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Academic website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-image: url('chicago2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: flex-start;
+        }
+        img.profile-photo {
+            border-radius: 50%;
+            width: 100px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #e9ecef;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        section {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>My Academic Website</h1>
-      <p>This website is dedicated to my academic work.</p>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section>
-        <h2>My Research</h2>
-        <p>My research interests lie in the area of artificial intelligence.</p>
-        <ul>
-          <li>I am working on a new algorithm for natural language processing.</li>
-          <li>I am also developing a new machine learning model for image recognition.</li>
-        </ul>
-      </section>
-      <section>
-        <h2>My Publications</h2>
-        <ul>
-          <li>I have published a paper on my research in the journal "Nature".</li>
-          <li>I have also presented my work at several conferences.</li>
-        </ul>
+    <header>
+        <img src="Felipe-Estay.png" class="profile-photo" alt="Sociologist">
+        <h1> </h1>
+    </header>
+
+    <nav>
+        <a href="publications.html">Publications</a>
+        <a href="curriculum.html">Professional Activities</a>
+    </nav>
+
+    <section>
+        <h2>About me</h2>
+        <p>
+            I am a sociologist pursuing a PhD in sociology at the Catholic University of Chile. I have a Master's degree in Social Policy from the London School of Economics and Political Science and Sociology from the University of Bristol. My research focuses on topics related to system justification and perceptions of inequality, exclusion pathways, homelessness, and the design of social policies.
+        </p>
+    </section>
+
+    <section>
+        <h2>Research</h2>
+        <p>
+            My research focuses on the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Through my studies, I aim to gain a deeper understanding of the factors that contribute to marginalization and the development of inadequate housing situations. Additionally, I aim to examine the impact of these experiences on individual and collective perceptions of inequality and how these factors inform the design of effective social policies aimed at addressing homelessness and reducing inequality. By examining these interrelated issues, I hope to contribute to a more comprehensive and nuanced understanding of the complex processes of exclusion and marginalization, and to inform the development of more effective and inclusive social policies.
+        </p>
+    </section>
+
+    <section>
+        <h2>Methods</h2>
+        <p>
+            In my research, I employ quantitative methods to examine the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Specifically, in my studies on inequality, I use experimental design to analyze the relationship between status quo and inequality justification. For my research on homelessness, I use administrative and longitudinal data to uncover the processes of cumulative disadvantage and social exclusion. Ultimately, my goal is to gain a deeper understanding of the complex dynamics at play in these critical social issues.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:fiestay@uc.cl">Contact Email</a>
+        </p>
+    </section>
+
+    <footer>
+        <p style="text-align:center;">&copy; 2023 Felipe Estay</p>
+    </footer>
+</body>
+</html>
