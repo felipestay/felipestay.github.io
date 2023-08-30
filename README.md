@@ -61,7 +61,7 @@
     <section>
         <h2>Research</h2>
         <p>
-            My research focuses on the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Through my studies, I aim to gain a deeper understanding of the factors that contribute to marginalization and the development of inadequate housing situations. Additionally, I aim to examine the impact of these experiences on individual and collective perceptions of inequality and how these factors inform the design of effective social policies aimed at addressing homelessness and reducing inequality. By examining these interrelated issues, I hope to contribute to a more comprehensive and nuanced understanding of the complex processes of exclusion and marginalization, and to inform the development of more effective and inclusive social policies.
+            My research focuses on the interplay between system justification, perceptions of inequality, and the experiences of exclusion and homelessness. Through my studies, I aim to gain a deeper understanding of the factors that contribute to marginalization and the development of inadequate housing situations. Additionally, I aim to examine the impact of these experiences on individual and collective perceptions of inequality and how these factors inform the design of effective social policies aimed at addressing homelessness and reducing inequality. By examining these interrelated issues, I hope to contribute to a more comprehensive and nuanced understanding of the complex processes of exclusion and marginalization and to inform the development of more effective and inclusive social policies.
         </p>
     </section>
 
