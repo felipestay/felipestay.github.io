@@ -9,20 +9,17 @@ tags: [Poster, Conference] # add tag
 
 ## Publications
 
-### Books and Book Chapters
-
+  ### Books and Book Chapters
 - Public Policies for the Homeless in Chile: A Shifting Picture
 I. Eissmann, F. Estay
 The Routledge Handbook of Global Perspectives on Homelessness, Law & Policy (2024)
 
-### Journal Articles
-
+  ### Journal Articles
 - Personas en situación de calle: desafío pendiente para la política social en Chile
 I. Eissmann, F. Estay
 Persona y Sociedad, xx(1), 157-171 (2006)
 
-### Policy Reports
-
+  ### Policy Reports
 - Política Comunal de Situación de Calle. Ilustre Municipalidad de Arica
 I. Eissmann, F. Estay (2023)
 
