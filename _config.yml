@@ -4,6 +4,7 @@ title_separator: "-"
 name: &name "Felipe Estay"
 description: &description "Academic Website"
 url: "https://felipestay.github.io" # the base hostname & protocol for your site
+theme: flexible-jekyll
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "felipestay/felipestay.github.io"
 teaser: "" # filename of teaser fallback teaser image placed in /images/, e.g. "500x300.png"
