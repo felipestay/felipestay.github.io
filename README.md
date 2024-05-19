@@ -54,7 +54,7 @@
     <section>
         <h2>About me</h2>
         <p>
-            I am a sociologist pursuing a PhD in sociology at the Catholic University of Chile. I have a Master's degree in Social Policy from the London School of Economics and Political Science and Sociology from the University of Bristol. My research focuses on topics related to system justification and perceptions of inequality, exclusion pathways, homelessness, and the design of social policies.
+            I am a sociologist pursuing a PhD in sociology at the UC Chile. I have a Master's degree in Social Policy from the London School of Economics and Political Science and Sociology from the University of Bristol. My research focuses on topics related to system justification and perceptions of inequality, exclusion pathways, homelessness, and the design of social policies.
         </p>
     </section>
 
