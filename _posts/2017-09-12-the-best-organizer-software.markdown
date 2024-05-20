@@ -3,7 +3,7 @@ layout: post
 title: Research
 date: 2024-03-12 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: grey2.jpg # Add image post (optional)
+img: chicago2.jpg # Add image post (optional)
 tags: [Research, Sociology] # add tag
 ---
 
