@@ -9,10 +9,10 @@ site-twitter: "" # If your site has a Twitter account, enter it here
 author: Felipe Estay # Add your name
 author-img: Felipe-Estay.png # Add your photo
 about-author: I am a sociologist pursuing a PhD in sociology at UC Chile. My research focuses on system justification, perceptions of inequality, exclusion pathways, homelessness, and social policy design. # Add description
-social-twitter: "" # Add your Twitter handle
-social-facebook: "" # Add your Facebook handle
+social-twitter: https://twitter.com/Ngenpin # Add your Twitter handle
+social-facebook: https://web.facebook.com/festaba1 # Add your Facebook handle
 social-github: felipestay # Add your GitHub handle
-social-linkedin: "" # Add your LinkedIn handle
+social-linkedin: https://www.linkedin.com/in/felipe-estay-34433a243/ # Add your LinkedIn handle
 social-email: fiestay@uc.cl # Add your Email address
 
 # Disqus
