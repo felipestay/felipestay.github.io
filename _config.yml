@@ -13,7 +13,7 @@ social-twitter: Ngenpin # Add your Twitter handle
 social-facebook: festaba1 # Add your Facebook handle
 social-github: felipestay # Add your GitHub handle
 social-linkedin: felipe-estay-34433a243 # Add your LinkedIn handle
-social-email: fiestay@uc.cl # Add your Email address
+social-email: [fiestay@uc.cl] # Add your Email address
 
 # Disqus
 disqus-identifier: "" # Add your Disqus identifier if you have one
