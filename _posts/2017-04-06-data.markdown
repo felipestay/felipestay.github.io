@@ -5,4 +5,9 @@ date: 2024-02-10 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img:  data.png # Add image post (optional)
 ---
-Under Construction
+In the last 18 months and continuing, I've been working on data visualisation about death, violence, in rough sleeping. Over the past 18 months—and continuing—I have been leading efforts to visualise data on deaths and violence affecting people experiencing rough sleeping. This work is part of my role as Executive Director of Moviliza. While the subject matter is undeniably painful, we believe it is essential to document these events. By making this crisis visible, we aim to drive awareness, inform decision-making, and ultimately contribute to lasting policy change.
+
+This map presents documented deaths of people living on the streets in Chile from 2020 to the present. It visualises cases reported and verified through media sources. The full report is available at movilizachile.org/panorama-de-calle.
+
+
+<div class="flourish-embed flourish-map" data-src="visualisation/21857928"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/21857928/thumbnail" width="100%" alt="map visualization" /></noscript></div>
