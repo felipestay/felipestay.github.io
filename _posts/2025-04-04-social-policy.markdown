@@ -53,8 +53,11 @@ May 19, 2024.[Read the article](https://www.elmostrador.cl/noticias/2024/05/19/h
 ### Featured Media
 
 - Entrevista con Mirna Schindler
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0nA9KkO30Hk" frameborder="0" allowfullscreen></iframe>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/0nA9KkO30Hk" frameborder="0" allowfullscreen 
+          style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 
 
