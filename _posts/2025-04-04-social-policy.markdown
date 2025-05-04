@@ -3,7 +3,7 @@ layout: post
 title: Social Policy
 date: 2024-05-01 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: chile3.png # Add image post (optional)
+img: chile2.png # Add image post (optional)
 tags: [Social, Policy] # add tag
 ---
 
@@ -14,6 +14,10 @@ In my role, I am actively engaged in advocacy and policy development to address 
 [La Tercera](https://www.latercera.com/la-tercera-domingo/noticia/el-misterio-del-sociologo-y-las-muertes-en-situacion-de-calle/VBYN54ZEQFHIJBC5VGDWSEZMRE/) have highlighted my research on the increasing violence faced by homeless individuals in Santiago. These findings underline the urgency of our advocacy work in pushing for effective social policies to protect vulnerable populations.
 
 ## Other media contribution
+
+“Crece impacto social por el aumento de personas en situación de calle” — Print article featuring commentary from Felipe Estay (Moviliza) on the growing visibility of street homelessness, structural urban exclusion, and the inadequacy of municipal responses.
+March 3, 2025. El Mercurio, Cuerpo C, page 1 (print edition) [Read the article](https://litoralpress.cl/sitio/Prensa_Texto?LPKey=SSFKU23VPBDZEM6SXVE7S3P2G27IZMJE6XWBZLU235VKXM3MMO7Q)
+
 “La ciudad está cara, imposible tener lugar para vivir” — Interview on homelessness and housing inequality.
 El Mostrador, January 23, 2025. [Read the article](https://www.elmostrador.cl/noticias/pais/2025/01/23/experto-en-personas-en-situacion-de-calle-la-ciudad-esta-cara-imposible-tener-lugar-para-vivir/)
 
@@ -29,7 +33,7 @@ ADN Radio, October 19, 2024. [Read the article](https://www.emol.com/noticias/Na
 October 19, 2024. [Read the article](https://cooperativa.cl/noticias/pais/policial/homicidios/chile-suma-169-personas-en-situacion-de-calle-asesinadas-en-cinco-anos/2024-10-19/185441.html)
 
 “Homicidios se posicionan como la principal causa de muerte en personas en situación de calle” — A Recent article highlighting homicide as the leading cause of death among people experiencing homelessness in Chile (rough-sleeping), regarding Moviliza’s public data.
-May 19, 2024.[El Mostrador](https://www.elmostrador.cl/noticias/2024/05/19/homicidios-se-posicionan-como-la-principal-causa-de-muerte-en-personas-en-situacion-de-calle/)
+May 19, 2024.[Read the article](https://www.elmostrador.cl/noticias/2024/05/19/homicidios-se-posicionan-como-la-principal-causa-de-muerte-en-personas-en-situacion-de-calle/)
 
 
 
