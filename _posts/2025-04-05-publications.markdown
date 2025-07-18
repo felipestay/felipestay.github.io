@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publications and Conferences
-date: 2024-04-03 00:00:00 +0300
+date: 2024-04-05 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: conference2.jpg # Add image post (optional)
 tags: [Poster, Conference] # add tag
