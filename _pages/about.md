@@ -33,4 +33,7 @@ My research sits at the intersection of **homelessness, social inequality, and s
 
 I serve as an editor of the **[International Journal on Homelessness](https://journal.ihhc.net/)** and collaborate with the [Institute of Global Homelessness (IGH)](https://ighomelessness.org/) and Dr. Abe Oudshoorn at **Western University** (Canada).
 
-My applied work includes running Chile's largest Housing First program, conducting program evaluations, and advising local governments on homelessness policy. I have presented research at international conferences in Halifax, Chicago, Mexico City, and Buenos Aires.
+My applied work includes leading Chile's largest Housing First program, conducting program evaluations, and advising local governments on homelessness policy. I have presented research at international conferences in Halifax, Lisbon, Chicago, Mexico City, and Buenos Aires.
+
+**Education:** PhD in Sociology (UC Chile, in progress) · MSc in Social Policy and Planning (LSE, 2014) · MSc in Sociology (University of Bristol, 2012) · BA in Sociology (Universidad Alberto Hurtado, 2003)
+
