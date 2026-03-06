@@ -1,220 +1,370 @@
 /*******************************************************************************
- * Custom styles for Felipe Estay — academic minimalist
+ * Felipe Estay — Academic Minimalist
+ * Full override to match design mock
  ******************************************************************************/
 
-// ── Override accent color: slate blue instead of purple ──────────────────────
+// ── Google Fonts loaded via _includes/head/custom.html ───────────────────────
+
+// ── Design tokens ─────────────────────────────────────────────────────────────
 :root {
-  --global-theme-color: #2c5f8a;
-  --global-hover-color: #2c5f8a;
-  --global-highlight-color: #2c5f8a;
+  --fe-ink:          #1c1c1e;
+  --fe-ink-2:        #48484a;
+  --fe-ink-3:        #8e8e93;
+  --fe-accent:       #2c5f8a;
+  --fe-accent-soft:  #e8f0f8;
+  --fe-accent-mid:   #b8d0e8;
+  --fe-bg:           #fafaf8;
+  --fe-card:         #ffffff;
+  --fe-border:       #e5e5ea;
+  --fe-serif:        'Crimson Pro', Georgia, serif;
+  --fe-sans:         'DM Sans', system-ui, sans-serif;
+
+  // Override al-folio tokens
+  --global-bg-color:             var(--fe-bg);
+  --global-card-bg-color:        var(--fe-card);
+  --global-text-color:           var(--fe-ink);
+  --global-text-color-light:     var(--fe-ink-3);
+  --global-theme-color:          var(--fe-accent);
+  --global-hover-color:          var(--fe-accent);
+  --global-hover-text-color:     #fff;
+  --global-divider-color:        var(--fe-border);
+  --global-footer-bg-color:      #f2f2f7;
+  --global-footer-text-color:    var(--fe-ink-3);
+  --global-footer-link-color:    var(--fe-accent);
+  --global-highlight-color:      var(--fe-accent);
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #6aadda;
-  --global-hover-color: #6aadda;
-  --global-highlight-color: #6aadda;
-  --global-bg-color: #141618;
-  --global-card-bg-color: #1e2124;
-  --global-text-color: #e2e4e8;
-  --global-text-color-light: #9da3ae;
-  --global-divider-color: rgba(255, 255, 255, 0.07);
-  --global-footer-bg-color: #0f1113;
+  --fe-ink:          #e2e4e8;
+  --fe-ink-2:        #a0a5b0;
+  --fe-ink-3:        #6b7280;
+  --fe-accent:       #6aadda;
+  --fe-accent-soft:  #1a2a38;
+  --fe-accent-mid:   #2a4a62;
+  --fe-bg:           #141618;
+  --fe-card:         #1e2124;
+  --fe-border:       rgba(255,255,255,0.08);
+
+  --global-bg-color:             var(--fe-bg);
+  --global-card-bg-color:        var(--fe-card);
+  --global-text-color:           var(--fe-ink);
+  --global-text-color-light:     var(--fe-ink-2);
+  --global-theme-color:          var(--fe-accent);
+  --global-hover-color:          var(--fe-accent);
+  --global-divider-color:        var(--fe-border);
+  --global-footer-bg-color:      #0f1113;
+  --global-footer-text-color:    var(--fe-ink-3);
+  --global-footer-link-color:    var(--fe-accent);
+  --global-highlight-color:      var(--fe-accent);
 }
 
-// ── Typography ────────────────────────────────────────────────────────────────
+// ── Base typography ───────────────────────────────────────────────────────────
 body {
-  font-size: 15.5px;
-  line-height: 1.75;
-  letter-spacing: -0.01em;
+  font-family: var(--fe-sans) !important;
+  font-size: 15px !important;
+  line-height: 1.75 !important;
+  color: var(--fe-ink) !important;
+  background: var(--fe-bg) !important;
 }
 
-h1, h2, h3 {
-  letter-spacing: -0.025em;
-  font-weight: 600;
+h1, h2, h3, h4 {
+  font-family: var(--fe-serif) !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--fe-ink) !important;
+}
+
+p { color: var(--fe-ink-2); }
+
+a {
+  color: var(--fe-accent) !important;
+  text-decoration: none !important;
+  &:hover {
+    color: var(--fe-accent) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px !important;
+  }
 }
 
 // ── Navbar ────────────────────────────────────────────────────────────────────
 .navbar {
-  border-bottom: 1px solid var(--global-divider-color);
-  backdrop-filter: blur(10px);
-  
+  background: rgba(250,250,248,0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid var(--fe-border) !important;
+  box-shadow: none !important;
+
+  html[data-theme="dark"] & {
+    background: rgba(20,22,24,0.92) !important;
+  }
+
   .navbar-brand {
-    font-weight: 600;
-    letter-spacing: -0.02em;
+    font-family: var(--fe-serif) !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.02em !important;
+    color: var(--fe-ink) !important;
+
+    span { color: var(--fe-accent) !important; }
   }
-  
+
   .nav-item .nav-link {
-    font-size: 0.88rem;
-    font-weight: 500;
-    letter-spacing: 0.01em;
+    font-family: var(--fe-sans) !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.01em !important;
+    color: var(--fe-ink-2) !important;
+    border-radius: 6px !important;
+    padding: 5px 11px !important;
+    transition: all 0.2s !important;
+
+    &:hover, &.active {
+      background: var(--fe-accent-soft) !important;
+      color: var(--fe-accent) !important;
+    }
   }
 }
 
-// ── Profile ───────────────────────────────────────────────────────────────────
+html[data-theme="dark"] .navbar {
+  background: rgba(20,22,24,0.92) !important;
+}
+
+// ── About / Profile ───────────────────────────────────────────────────────────
+.about-name, #about h1 {
+  font-family: var(--fe-serif) !important;
+  font-size: 2.6rem !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.03em !important;
+}
+
 .profile {
-  img {
-    border: 3px solid var(--global-divider-color);
-    box-shadow: 0 4px 20px rgba(44, 95, 138, 0.15);
+  img, .profile-image {
+    border: 3px solid var(--fe-border) !important;
+    box-shadow: 0 4px 24px rgba(44,95,138,0.12) !important;
   }
 }
 
-// ── About page ────────────────────────────────────────────────────────────────
-.post .post-content p {
-  color: var(--global-text-color);
+// Subtitle
+.post-description {
+  font-size: 13.5px !important;
+  color: var(--fe-accent) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
 }
 
 // ── News / Announcements ──────────────────────────────────────────────────────
-.news table td,
-.news table th {
-  border-color: var(--global-divider-color);
-  font-size: 0.9rem;
+.news {
+  table {
+    border: none !important;
+
+    td, th {
+      border: none !important;
+      border-bottom: 1px solid var(--fe-border) !important;
+      font-size: 14px !important;
+      padding: 10px 8px !important;
+      color: var(--fe-ink-2) !important;
+    }
+
+    th {
+      font-size: 11px !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.06em !important;
+      text-transform: uppercase !important;
+      color: var(--fe-ink-3) !important;
+      white-space: nowrap !important;
+    }
+
+    strong { color: var(--fe-ink) !important; }
+  }
 }
 
 // ── Publications ─────────────────────────────────────────────────────────────
-.publications {
+.publications, #publications {
   h2.year {
-    color: var(--global-text-color-light);
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-bottom: 4px;
-    margin-bottom: 16px;
+    font-family: var(--fe-sans) !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--fe-ink-3) !important;
+    border-bottom: 1px solid var(--fe-border) !important;
+    padding-bottom: 5px !important;
+    margin: 2rem 0 1rem !important;
   }
-  
-  .abbr abbr {
-    background-color: var(--global-theme-color) !important;
+
+  ol.bibliography {
+    list-style: none !important;
+    padding: 0 !important;
+
+    li {
+      background: var(--fe-card) !important;
+      border: 1px solid var(--fe-border) !important;
+      border-left: 3px solid var(--fe-accent) !important;
+      border-radius: 10px !important;
+      padding: 18px 20px !important;
+      margin-bottom: 14px !important;
+      transition: all 0.2s !important;
+
+      &:hover {
+        transform: translateX(-2px) !important;
+        box-shadow: 0 4px 20px rgba(44,95,138,0.08) !important;
+        border-color: var(--fe-accent-mid) !important;
+        border-left-color: var(--fe-accent) !important;
+      }
+
+      .title {
+        font-family: var(--fe-serif) !important;
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        color: var(--fe-ink) !important;
+        letter-spacing: -0.01em !important;
+      }
+
+      .author {
+        font-size: 13px !important;
+        color: var(--fe-ink-3) !important;
+
+        em { font-style: normal !important; }
+        
+        // Highlight own name
+        a { color: var(--fe-accent) !important; font-weight: 500 !important; }
+      }
+
+      .periodical {
+        font-size: 13px !important;
+        color: var(--fe-ink-2) !important;
+        font-style: italic !important;
+      }
+
+      .links {
+        margin-top: 8px !important;
+
+        a.btn {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          letter-spacing: 0.03em !important;
+          text-transform: uppercase !important;
+          padding: 2px 9px !important;
+          border-radius: 4px !important;
+          text-decoration: none !important;
+        }
+      }
+    }
   }
 }
 
-// ── Cards / Projects ─────────────────────────────────────────────────────────
-.card {
-  border: 1px solid var(--global-divider-color) !important;
-  background-color: var(--global-card-bg-color) !important;
-  border-radius: 10px !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(44, 95, 138, 0.1) !important;
+// ── Research / Projects ───────────────────────────────────────────────────────
+.projects {
+  h2.category {
+    font-family: var(--fe-sans) !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    color: var(--fe-ink-3) !important;
+    border-bottom: 1px solid var(--fe-border) !important;
+    padding-bottom: 6px !important;
+    margin: 2.5rem 0 1.2rem !important;
+    text-decoration: none !important;
+  }
+
+  a { text-decoration: none !important; }
+
+  .card {
+    background: var(--fe-card) !important;
+    border: 1px solid var(--fe-border) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    transition: all 0.2s !important;
+    height: 100% !important;
+
+    .card-img-top {
+      height: 150px !important;
+      object-fit: cover !important;
+    }
+
+    .card-body {
+      padding: 1.1rem 1.2rem !important;
+
+      h2.card-title {
+        font-family: var(--fe-serif) !important;
+        font-size: 1.05rem !important;
+        font-weight: 400 !important;
+        color: var(--fe-ink) !important;
+        margin-bottom: 0.4rem !important;
+        line-height: 1.35 !important;
+      }
+
+      p.card-text {
+        font-size: 0.865rem !important;
+        color: var(--fe-ink-2) !important;
+        line-height: 1.6 !important;
+      }
+    }
+
+    &:hover {
+      border-color: var(--fe-accent-mid) !important;
+      transform: translateY(-3px) !important;
+      box-shadow: 0 8px 28px rgba(44,95,138,0.1) !important;
+    }
   }
 }
 
-// ── CV ────────────────────────────────────────────────────────────────────────
+// ── CV page ───────────────────────────────────────────────────────────────────
 .cv {
   .card {
-    margin-bottom: 1.2rem;
-  }
-  
-  .card-title {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--global-theme-color);
+    border: 1px solid var(--fe-border) !important;
+    border-radius: 10px !important;
+    margin-bottom: 1rem !important;
+    background: var(--fe-card) !important;
+
+    .card-title {
+      font-family: var(--fe-serif) !important;
+      font-size: 1.1rem !important;
+      font-weight: 400 !important;
+      color: var(--fe-accent) !important;
+    }
+
+    .card-body { padding: 1.2rem 1.4rem !important; }
   }
 }
 
 // ── Footer ────────────────────────────────────────────────────────────────────
-footer {
-  font-size: 0.82rem;
-  border-top: 1px solid var(--global-divider-color);
+footer.fixed-bottom, footer.sticky-bottom, footer {
+  font-size: 12px !important;
+  border-top: 1px solid var(--fe-border) !important;
 }
 
-// ── Links ─────────────────────────────────────────────────────────────────────
-a {
-  color: var(--global-theme-color);
-  
-  &:hover {
-    color: var(--global-hover-color);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+// ── Post / page titles ────────────────────────────────────────────────────────
+.post-title {
+  font-family: var(--fe-serif) !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.03em !important;
 }
 
-// ── Buttons / Badges ─────────────────────────────────────────────────────────
-.btn-sm {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-  padding: 2px 8px;
-}
+// ── Media page ───────────────────────────────────────────────────────────────
+.post-list li {
+  border-bottom: 1px solid var(--fe-border) !important;
+  padding: 1rem 0 !important;
 
-// ── Research / Projects page ──────────────────────────────────────────────────
-.projects {
-  h2.category {
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--global-text-color-light);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-bottom: 6px;
-    margin: 2rem 0 1.2rem;
-  }
-
-  .card {
-    border-radius: 12px !important;
-    border: 1px solid var(--global-divider-color) !important;
-    overflow: hidden;
-    
-    .card-img-top {
-      height: 160px;
-      object-fit: cover;
-    }
-
-    .card-body {
-      padding: 1.1rem 1.2rem;
-
-      h2.card-title {
-        font-size: 1rem;
-        font-weight: 600;
-        line-height: 1.35;
-        margin-bottom: 0.5rem;
-        color: var(--global-text-color);
-      }
-
-      p.card-text {
-        font-size: 0.875rem;
-        color: var(--global-text-color-light);
-        line-height: 1.6;
-        margin-bottom: 0;
-      }
-    }
+  h3 a {
+    font-family: var(--fe-serif) !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    color: var(--fe-ink) !important;
 
     &:hover {
-      border-color: var(--global-theme-color) !important;
-      transform: translateY(-3px);
-      box-shadow: 0 8px 28px rgba(44, 95, 138, 0.12) !important;
-    }
-  }
-
-  // Remove the outer card link underline
-  a {
-    text-decoration: none !important;
-    
-    &:hover {
+      color: var(--fe-accent) !important;
       text-decoration: none !important;
     }
   }
-}
 
-// ── Publication cards ─────────────────────────────────────────────────────────
-#publications, .publications {
-  .col {
-    margin-bottom: 1rem;
-  }
+  p { font-size: 14px !important; color: var(--fe-ink-2) !important; }
 
-  ol.bibliography li {
-    border: 1px solid var(--global-divider-color);
-    border-radius: 10px;
-    padding: 1rem 1.2rem;
-    margin-bottom: 0.8rem;
-    background: var(--global-card-bg-color);
-    transition: box-shadow 0.2s ease;
-
-    &:hover {
-      box-shadow: 0 4px 16px rgba(44, 95, 138, 0.08);
-    }
+  .post-meta {
+    font-size: 11px !important;
+    color: var(--fe-ink-3) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
   }
 }
