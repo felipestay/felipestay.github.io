@@ -139,3 +139,82 @@ a {
   border-radius: 4px;
   padding: 2px 8px;
 }
+
+// ── Research / Projects page ──────────────────────────────────────────────────
+.projects {
+  h2.category {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 6px;
+    margin: 2rem 0 1.2rem;
+  }
+
+  .card {
+    border-radius: 12px !important;
+    border: 1px solid var(--global-divider-color) !important;
+    overflow: hidden;
+    
+    .card-img-top {
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1.1rem 1.2rem;
+
+      h2.card-title {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.35;
+        margin-bottom: 0.5rem;
+        color: var(--global-text-color);
+      }
+
+      p.card-text {
+        font-size: 0.875rem;
+        color: var(--global-text-color-light);
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+    }
+
+    &:hover {
+      border-color: var(--global-theme-color) !important;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(44, 95, 138, 0.12) !important;
+    }
+  }
+
+  // Remove the outer card link underline
+  a {
+    text-decoration: none !important;
+    
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+// ── Publication cards ─────────────────────────────────────────────────────────
+#publications, .publications {
+  .col {
+    margin-bottom: 1rem;
+  }
+
+  ol.bibliography li {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.8rem;
+    background: var(--global-card-bg-color);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(44, 95, 138, 0.08);
+    }
+  }
+}
