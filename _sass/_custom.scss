@@ -1,0 +1,141 @@
+/*******************************************************************************
+ * Custom styles for Felipe Estay — academic minimalist
+ ******************************************************************************/
+
+// ── Override accent color: slate blue instead of purple ──────────────────────
+:root {
+  --global-theme-color: #2c5f8a;
+  --global-hover-color: #2c5f8a;
+  --global-highlight-color: #2c5f8a;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #6aadda;
+  --global-hover-color: #6aadda;
+  --global-highlight-color: #6aadda;
+  --global-bg-color: #141618;
+  --global-card-bg-color: #1e2124;
+  --global-text-color: #e2e4e8;
+  --global-text-color-light: #9da3ae;
+  --global-divider-color: rgba(255, 255, 255, 0.07);
+  --global-footer-bg-color: #0f1113;
+}
+
+// ── Typography ────────────────────────────────────────────────────────────────
+body {
+  font-size: 15.5px;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+
+// ── Navbar ────────────────────────────────────────────────────────────────────
+.navbar {
+  border-bottom: 1px solid var(--global-divider-color);
+  backdrop-filter: blur(10px);
+  
+  .navbar-brand {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  
+  .nav-item .nav-link {
+    font-size: 0.88rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+}
+
+// ── Profile ───────────────────────────────────────────────────────────────────
+.profile {
+  img {
+    border: 3px solid var(--global-divider-color);
+    box-shadow: 0 4px 20px rgba(44, 95, 138, 0.15);
+  }
+}
+
+// ── About page ────────────────────────────────────────────────────────────────
+.post .post-content p {
+  color: var(--global-text-color);
+}
+
+// ── News / Announcements ──────────────────────────────────────────────────────
+.news table td,
+.news table th {
+  border-color: var(--global-divider-color);
+  font-size: 0.9rem;
+}
+
+// ── Publications ─────────────────────────────────────────────────────────────
+.publications {
+  h2.year {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .abbr abbr {
+    background-color: var(--global-theme-color) !important;
+  }
+}
+
+// ── Cards / Projects ─────────────────────────────────────────────────────────
+.card {
+  border: 1px solid var(--global-divider-color) !important;
+  background-color: var(--global-card-bg-color) !important;
+  border-radius: 10px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(44, 95, 138, 0.1) !important;
+  }
+}
+
+// ── CV ────────────────────────────────────────────────────────────────────────
+.cv {
+  .card {
+    margin-bottom: 1.2rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+footer {
+  font-size: 0.82rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// ── Links ─────────────────────────────────────────────────────────────────────
+a {
+  color: var(--global-theme-color);
+  
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+// ── Buttons / Badges ─────────────────────────────────────────────────────────
+.btn-sm {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
