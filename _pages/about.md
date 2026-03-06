@@ -16,7 +16,7 @@ profile:
     <p><a href="mailto:fiestay@uc.cl">fiestay@uc.cl</a></p>
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: true
@@ -36,3 +36,12 @@ I serve as an editor of the **[International Journal on Homelessness](https://jo
 My applied work includes leading Chile's largest Housing First program, conducting program evaluations, and advising local governments on homelessness policy. I have presented research at international conferences in Halifax, Lisbon, Chicago, Mexico City, and Buenos Aires.
 
 **Education:** PhD in Sociology (UC Chile, in progress) · MSc in Social Policy and Planning (LSE, 2014) · MSc in Sociology (University of Bristol, 2012) · BA in Sociology (Universidad Alberto Hurtado, 2003)
+
+---
+
+📧 [fiestay@uc.cl](mailto:fiestay@uc.cl) &nbsp;·&nbsp;
+🎓 [Google Scholar](https://scholar.google.com/citations?user=zOAOpbkAAAAJ) &nbsp;·&nbsp;
+🔗 [ORCID](https://orcid.org/0000-0002-3155-5629) &nbsp;·&nbsp;
+💼 [LinkedIn](https://linkedin.com/in/felipe-estay-34433a243) &nbsp;·&nbsp;
+🐦 [Twitter/X](https://twitter.com/Ngenpin) &nbsp;·&nbsp;
+📄 [CV](/assets/pdf/CV_Estay_Eng.pdf)
