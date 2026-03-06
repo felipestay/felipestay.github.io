@@ -34,8 +34,8 @@ max_width: 960px
 serve_og_meta: true
 serve_schema_org: true
 
-google_analytics:
-enable_google_analytics: false
+google_analytics: G-PLXW34CK6E
+enable_google_analytics: true
 
 blog_name: Felipe Estay
 blog_description: Notes on research, policy, and fieldwork
