@@ -1,0 +1,180 @@
+# Site settings
+title: blank
+first_name: Felipe
+middle_name:
+last_name: Estay
+contact_note: >
+  The best way to reach me is by email.
+description: >
+  Sociologist and PhD candidate at Pontificia Universidad Católica de Chile.
+  Executive Director of Corporación Moviliza. Research on homelessness,
+  system justification, and inequality in Chile and Latin America.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: homelessness, sociology, inequality, Housing First, Chile, Latin America
+lang: en
+icon: 🏠
+
+url: https://felipestay.github.io
+baseurl:
+last_updated: true
+back_to_top: true
+
+navbar_fixed: true
+footer_fixed: false
+search_enabled: true
+socials_in_search: false
+posts_in_search: false
+bib_search: true
+
+max_width: 960px
+
+serve_og_meta: true
+serve_schema_org: true
+
+google_analytics:
+enable_google_analytics: false
+
+blog_name: Felipe Estay
+blog_description: Notes on research, policy, and fieldwork
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: false
+
+giscus:
+  repo:
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages", "_scripts"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+
+keep_files:
+  - CNAME
+  - .nojekyll
+
+plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jemoji
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
+
+scholar:
+  last_name: [Estay]
+  first_name: [Felipe, F.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: true
+  inspirehep: false
+
+filtered_bibtex_keywords:
+  [abbr, abstract, additional_info, altmetric, annotation, arxiv, award,
+   award_name, bibtex_show, blog, code, dimensions, eprint, google_scholar_id,
+   hal, html, inspirehep_id, pdf, pmid, poster, preview, selected, slides,
+   supp, video, website]
+
+max_author_limit: 5
+enable_publication_thumbnails: false
+
+enable_masonry: true
+enable_math: false
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: true
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
+
+imagemagick:
+  enabled: false
+
+lazy_loading_images: true
+
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+third_party_libraries:
+  download: false
