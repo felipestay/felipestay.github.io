@@ -178,3 +178,21 @@ external_links:
 
 third_party_libraries:
   download: false
+
+# -----------------------------------------------------------------------------
+# Jekyll Get JSON - loads resume.json into site.data.resume
+# -----------------------------------------------------------------------------
+
+jekyll_get_json:
+  - data: resume
+    json: assets/json/resume.json
+
+jsonresume:
+  - basics
+  - work
+  - education
+  - publications
+  - awards
+  - skills
+  - languages
+  - interests
