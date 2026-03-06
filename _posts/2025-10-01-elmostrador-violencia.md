@@ -9,4 +9,4 @@ categories: media
 
 Opinion column published in **El Mostrador** (October 2025).
 
-[Read the full column →](https://elmostrador.cl)
+[Read the full column →](https://www.elmostrador.cl/noticias/opinion/columnas/2025/10/03/la-violencia-no-el-frio-esta-matando-a-las-personas-en-situacion-de-calle/)
